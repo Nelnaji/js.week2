@@ -9,8 +9,12 @@ perso.sePresenter = function () {
 perso.sePresenter();
 console.log(perso);
 
+const perso1 = {
+  nom: "John",
+  annonce: function () {
+    perso1.age = prompt(`Veuillez inscrire votre age`);
+    alert(`${perso1.nom} a ${perso1.age} ans`);
+  },
+};
 
-const perso1 ={
-  nom : "John",
-  annonce : function (){let perso1.age = prompt(`Veuillez inscrire votre age`)},
-}
+perso1.annonce();
